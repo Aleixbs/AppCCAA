@@ -1,0 +1,24 @@
+<div id="calculator-container">
+    <h1>Calculadora de Inversión</h1>
+
+    <label for="wealth">Introduce tu patrimonio:</label>
+    <input type="number" id="wealth" name="wealth" min="0" step="1" required value="1000000">
+    <button id="calculateButton" data-dojo-attach-event="onclick:addPatrimonioResults">Calcular</button>
+  
+    <div id="results"></div>
+  
+    <label for="wealth">Introduce tu salario anual:</label>
+    <input type="number" id="wealth2" name="wealth" min="0" step="1" required value="35000">
+    <button id="calculateButton2" data-dojo-attach-event="onclick:addirpfResults">Calcular</button>
+   
+  
+    <div id="results2"></div>
+
+    <label class="indicaciones-container" for="wealth">Indicaciones:</label>
+    <p>- Valora tu patrimonio, considerando todos tus activos y pasivos. Asegúrate de incluir el valor de tu hogar, vehículo, inversiones, ahorros y deudas.</p>
+    <p>- Introduce tu salario anual, incluyendo tu sueldo base, bonificaciones y cualquier otro ingreso anual que recibas.</p>
+    <p>- Primero debes calcular los porcentajes de los impuestos, después podrás calcular los puntos de inversión.</p>
+
+    <button data-dojo-attach-event="onclick:sumPercentages">Calcular puntos de inversión</button>
+  
+</div>
