@@ -27,7 +27,7 @@ define(['dojo/dom',"dojo/dom-construct",'dojo/_base/declare', 'jimu/BaseWidget']
       //methods to communication with app container:
 
       gisGPT: function () {
-        const API_KEY = "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";
+        const API_KEY = "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";
         const API_URL = "https://api.openai.com/v1/chat/completions";
 
         //Cómo actua el chat
